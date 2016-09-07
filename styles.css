@@ -17,8 +17,9 @@ button {
     color: white;
     background-color: #E5B6D5;
     border-color: #B2479A #CC7FB5;
-    border-width: 8px;
+    border-width: 10px;
     font-size: 200%;
+    letter-spacing: 4px;
 
 }
 
@@ -27,6 +28,26 @@ button:hover {
   border-color: #CC7FB5 #E5B6D5;
 }
 
-.randombtn {}
+@media screen and (max-width: 568px) {
+  div {
+    margin-left: 1px;
+    /*display: block;*/
+    padding: 10px;
+  }
 
-.resetbtn {}
+  button {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 25%;
+  }
+
+/*#randombtn {
+  width:
+  height:
+}*/
+
+#resetbtn {
+  height: 50px;
+  font-size: 130%;
+}
+}
