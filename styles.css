@@ -1,0 +1,32 @@
+body{
+  background: #ffffff;
+}
+
+div {
+  display: inline-block;
+  padding: 50px;
+
+
+}
+button {
+    margin-top: 25%;
+    margin-left: 30%;
+    width: 300px;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #E5B6D5;
+    border-color: #B2479A #CC7FB5;
+    border-width: 8px;
+    font-size: 200%;
+
+}
+
+button:hover {
+  background-color: #B2479A;
+  border-color: #CC7FB5;
+}
+
+.randombtn {}
+
+.resetbtn {}
